@@ -26,5 +26,20 @@
 }
 
 .resume__item--about {
+    margin-left: 50px;
     margin-bottom: 12px;
+    position: relative;
+}
+
+.resume__item--about::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1828/1828710.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 6px;
+    left: -36px;
 }
