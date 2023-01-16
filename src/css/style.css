@@ -220,7 +220,7 @@ ul, ol {
 
 .portfolio__about {
   font-size: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 100px;
   color: #000;
 }
 
@@ -274,6 +274,10 @@ ul, ol {
 .resume__item {
   font-size: 24px;
   color: #000;
+}
+
+.resume__item--about {
+  margin-bottom: 12px;
 }
 
 .education {
@@ -654,6 +658,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   width: 650px;
+  margin-bottom: 10px;
 }
 
 .resume-card__img {
@@ -698,7 +703,7 @@ ul, ol {
 }
 
 .resume-card__img--webpack {
-  background-image: url(https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png);
+  background-image: url(https://v4.webpack.js.org/d19378a95ebe6b15d5ddea281138dcf4.svg);
 }
 
 .resume-card__img--gulp {
@@ -710,5 +715,5 @@ ul, ol {
 }
 
 .resume-card__img--bem {
-  background-image: url(https://blog.haposoft.com/content/images/2021/10/photo_gray.jpg);
+  background-image: url(https://ru.bem.info/UkC0yRpjS421DGQJVLY7NzcCQT0.svgd);
 }
