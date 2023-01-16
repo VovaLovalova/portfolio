@@ -1,0 +1,62 @@
+.resume-card {
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+
+.resume-card__img {
+    width: 150px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+}
+
+.resume-card__text {
+    width: 460px;
+}
+
+.resume-card__img--languages {
+    background-image: url(https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png);
+}
+
+.resume-card__img--react {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png);
+}
+
+.resume-card__img--preproc {
+    background-image: url(https://firebearstudio.com/blog/wp-content/uploads/2015/03/The-Best-CSS-Preprocessors.png);
+}
+
+.resume-card__img--github {
+    background-image: url(https://www.freecodecamp.org/news/content/images/2022/07/git-github.png);
+}
+
+.resume-card__img--layout {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1488/1488592.png);
+}
+
+.resume-card__img--uiux {
+    background-image: url(https://oussamakandakji.com/images/uiux_KANDAKJI_Oussama.png);
+}
+
+.resume-card__img--figma {
+    background-image: url(https://i0.wp.com/thewestnews.com/wp-content/uploads/2022/09/Photoshop-maker-Adobe-has-agreed-to-pay-20-billion-to-acquire-design-software-Figma.jpg?fit=1920%2C1080&ssl=1);
+}
+
+.resume-card__img--webpack {
+    background-image: url(https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png);
+}
+
+.resume-card__img--gulp {
+    background-image: url(https://cdn.alsacreations.net/xmedia/doc/full/gulp-logo.png);
+}
+
+.resume-card__img--babel {
+    background-image: url(https://babeljs.io/img/ogImage.png);
+}
+
+.resume-card__img--bem {
+    background-image: url(https://blog.haposoft.com/content/images/2021/10/photo_gray.jpg);
+}
