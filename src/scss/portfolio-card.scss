@@ -1,0 +1,23 @@
+.portfolio-card {
+    width: 360px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.portfolio-card:hover {
+    box-shadow: 10px 5px 5px #666666;
+}
+
+.portfolio-card__title {
+    margin-bottom: 12px;
+}
+
+.portfolio-card__about {
+    margin-bottom: 12px;
+}

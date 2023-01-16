@@ -1,0 +1,43 @@
+.education-card {
+    width: 720px;
+    height: 310px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 460px 200px;
+    column-gap: 20px;
+}
+
+.education-card__link {
+    position: relative;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+.education-card__title {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #000;
+    grid-column: 1 / 2;
+}
+
+.education-card__about {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #000;
+    grid-column: 1 / 2;
+}
+
+.education-card__more-about {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #000;
+    grid-column: 1 / 2;
+}
+
+.education-card__img {
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+}

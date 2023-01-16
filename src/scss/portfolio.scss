@@ -1,0 +1,30 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 100px 50px;
+}
+
+.portfolio__title {
+    font-size: 42px;
+    margin-bottom: 32px;
+    color: #000;
+}
+
+.portfolio__about {
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: #000;
+}
+
+.portfolio__list {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    column-gap: 40px;
+}
+
+.portfolio__link {
+    color: #ffffff;
+}

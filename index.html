@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Vladimir Rudchenko</title>
+</head>
+
+<body>
+    <header class="main-header" id="header">
+        <nav class="main-header__nav-bar nav-bar">
+            <h1 class="nav-bar__logo">VLADIMIR<br>RUDCHENKO</h1>
+            <ul class="nav-bar__list">
+                <li class="nav-bar__item">
+                    <a href="#portfolio" class="naw-bar__link">Портфолио</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#resume" class="naw-bar__link">О себе</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#education" class="naw-bar__link">Образование</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#experience" class="naw-bar__link">Опыт работы</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#contacts" class="naw-bar__link">Контакты</a>
+                </li>
+            </ul>
+
+            <div class="main-header__button main-header__button--hide" title="Вверх"></div>
+        </nav>
+
+        <article class="avatar">
+            <img class="avatar__img" width="280" height="280" src="./img/avatar.JPG" alt="avatar">
+            <h2 class="avatar__title">Рудченко Владимир</h2>
+            <p class="avatar__about">Веб-разработчик, проектный менеджер</p>
+        </article>
+        <ul class="social__list">
+
+            <li class="social__item">
+                <a href="https://github.com/VovaLovalova" class="social__link" target="_blank" title="GitHub">
+                    <span class="visually-hidden">GitHub</span>
+                    <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+                        data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                        <path fill-rule="evenodd"
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="social__item">
+                <a href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D1%80%D1%83%D0%B4%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-b50358260/"
+                    class="social__link" target="_blank" title="LinkedIn">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="loader__linkedin-logo" width="100" height="48"
+                        viewBox="0 0 190 48">
+                        <g>
+                            <g>
+                                <path
+                                    d="M58,27.22V41H51V28.88c0-3.7-2.07-5.24-4-5.24a5,5,0,0,0-5.14,4.85,4.34,4.34,0,0,0,0,.51V41H35V18h6.6v3.25h.09c.69-1.41,3.64-3.75,7.66-3.75S58,20.22,58,27.22ZM24,41h7V18H24ZM27.5,6.45a4.05,4.05,0,1,0,4.1,4.05,4,4,0,0,0-4-4ZM190,3.5v41a3.5,3.5,0,0,1-3.5,3.5h-41a3.5,3.5,0,0,1-3.5-3.5V3.5A3.5,3.5,0,0,1,145.5,0h41A3.5,3.5,0,0,1,190,3.5ZM156,18h-7V41h7Zm.6-7.5a4.1,4.1,0,1,0-4.15,4.05h.05a4,4,0,0,0,4.1-3.9ZM183,27.22c0-7-4.63-9.72-8.65-9.72s-7,2.34-7.66,3.75h-.09V18H160V41h7V29c0-3.69,2.51-5.33,4.95-5.33,2,0,4.05,1.54,4.05,5.24V41h7ZM8,7H0V41H21V34H8ZM108,29.77v2H91a1.33,1.33,0,0,0,.11.43c.58,1.93,2.67,3.56,5.75,3.56A6.3,6.3,0,0,0,102,33.52l5.1,3.18a12.72,12.72,0,0,1-10.45,4.8C89.94,41.5,84,37.42,84,29.59S90,17.5,96.44,17.5,108,21.81,108,29.77ZM101,27c0-2.4-1.56-4.38-4.75-4.38-3,0-5.09,2-5.25,4.38ZM85.26,18H76.68l-7.54,9.37H69V7H62V41h7V30h.14l7.72,11h8.77L76.2,28.43ZM128,7h7V41h-6.6V38h-.09c-.88,1.52-3.24,3.49-7.4,3.49-5,0-10.91-3.63-10.91-12,0-7.53,5.1-11.95,10.82-11.95a9.55,9.55,0,0,1,7.09,3H128Zm.3,22.49a5.74,5.74,0,0,0-5.59-5.89h-.15A5.54,5.54,0,0,0,116.89,29c0,.15,0,.29,0,.44a5.61,5.61,0,0,0,5.26,5.94h.4A5.83,5.83,0,0,0,128.3,29.49Z"
+                                    fill="currentColor"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="social__item">
+                <a href="https://career.habr.com/vova_lovalova" class="social__link" target="_blank"
+                    title="Хабр Карьера">
+                    <span class="visually-hidden">Habr</span>
+                    <svg width="80" height="30" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="800" height="300" fill="white" />
+                        <path
+                            d="M297.027 201.519L254.743 137.546L296.662 73.209H265.861L237.793 116.951L210.09 73.209H178.195L220.114 136.999L177.83 201.519H208.996L237.064 157.594L265.314 201.519H297.027Z"
+                            fill="black" />
+                        <path
+                            d="M350.873 105.104C326.268 105.104 312.234 118.592 309.682 134.813H334.469C335.927 129.892 340.666 125.7 349.779 125.7C358.71 125.7 365.271 130.256 365.271 139.004V143.379H344.676C320.618 143.379 306.037 154.496 306.037 173.816C306.037 192.771 320.618 203.706 338.844 203.706C351.055 203.706 360.897 198.967 366.729 191.313V201.519H391.334V139.916C391.334 116.951 375.113 105.104 350.873 105.104ZM346.134 183.111C337.932 183.111 332.647 179.101 332.647 172.54C332.647 165.796 338.479 161.787 346.681 161.787H365.271V165.979C365.271 176.914 356.34 183.111 346.134 183.111Z"
+                            fill="black" />
+                        <path
+                            d="M465.062 108.93C451.94 108.93 441.186 113.668 434.26 123.328C436.083 105.649 443.191 96.9005 461.052 94.1666L496.957 88.8811V65.7344L458.501 72.1134C421.32 78.3102 409.838 103.097 409.838 144.47C409.838 181.651 427.881 203.704 459.777 203.704C488.391 203.704 506.07 181.833 506.07 155.588C506.07 127.338 489.667 108.93 465.062 108.93ZM458.501 181.468C444.649 181.468 436.994 170.351 436.994 155.405C436.994 141.007 445.014 130.618 458.683 130.618C471.988 130.618 479.46 141.371 479.46 155.588C479.46 169.804 472.17 181.468 458.501 181.468Z"
+                            fill="black" />
+                        <path
+                            d="M577.043 105.104C563.191 105.104 554.261 111.119 549.522 118.227V107.292H524.006V236.33H550.616V192.406C555.354 198.967 564.285 203.706 576.314 203.706C599.461 203.706 617.869 185.48 617.869 154.496C617.869 122.966 599.461 105.104 577.043 105.104ZM570.664 180.742C558.27 180.742 550.069 170.717 550.069 154.861V154.132C550.069 138.275 558.27 128.069 570.664 128.069C583.057 128.069 591.077 138.458 591.077 154.496C591.077 170.535 583.057 180.742 570.664 180.742Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </li>
+
+            <li class="social__item">
+                <a href="" class="social__link" target="_blank" title="HeadHunter">
+                    <span class="visually-hidden">HeadHunter</span>
+                    <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24"
+                            fill="#000000" />
+                        <path
+                            d="M13.65 13.169v8.164c1.243-1.482 2.733-2.228 4.461-2.228.89 0 1.687.17 2.402.507.717.335 1.253.765 1.615 1.287.364.527.61 1.104.743 1.74.132.633.198 1.618.198 2.954v8.729h-3.862V26.46c0-1.56-.07-2.548-.217-2.968a1.917 1.917 0 00-.775-1c-.372-.251-.835-.375-1.394-.375-.64 0-1.214.16-1.713.478-.51.32-.876.798-1.108 1.437-.236.64-.354 1.585-.35 2.836l-.004 7.454H9.789V13.169h3.862m15.206 0v8.164c1.244-1.482 2.733-2.228 4.46-2.228.887 0 1.69.17 2.406.507.714.335 1.25.765 1.61 1.287a4.69 4.69 0 01.743 1.74c.133.633.199 1.618.199 2.954v8.729h-3.858V26.46c0-1.56-.073-2.548-.22-2.968a1.91 1.91 0 00-.777-1c-.368-.251-.835-.375-1.394-.375-.639 0-1.213.16-1.713.478-.503.32-.871.798-1.106 1.437-.232.64-.35 1.585-.35 2.836v7.454H25V13.169h3.857"
+                            fill="#FEFEFE" />
+                    </svg>
+                </a>
+            </li>
+
+            <li class="social__item">
+                <a href="https://instagram.com/vova_lovalova?igshid=MWI4MTIyMDE=" class="social__link" target="_blank"
+                    title="Instagram">
+                    <span class="visually-hidden">Instagram</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60">
+                        <path
+                            d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main class="main-page">
+        <div class="main-page__wrapper">
+            <article class="portfolio" id="portfolio">
+                <h2 class="portfolio__title">Портфолио</h2>
+                <p class="portfolio__about">В этом разделе представлены примеры моих работ</p>
+                <ul class="portfolio__list">
+                    <li class="portfolio__item">
+                        <a href="https://beamish-cucurucho-4812a7.netlify.app/" class="portfolio__link" target="_blank">
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-card__title">Cat Energy</h3>
+                                <p class="portfolio-card__about">Проект онлайн магазина. Проект выполнен по методологии
+                                    БЭМ и
+                                    применением препроцессора Less. Верстка адаптивная под мобильный телефон, десктоп и
+                                    планшет. Графика оптимизирована под все типы мониторов.</p>
+                                <img class="portfolio-card__img" src="./img/cat-energy.jpg" alt="cat-energy" width="320"
+                                    height="160">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <a href="https://majestic-moonbeam-369693.netlify.app" class="portfolio__link" target="_blank">
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-card__title">Keksobooking</h3>
+                                <p class="portfolio-card__about">Проект сайта для поиска жилья и размещения объявлений,
+                                    настроена
+                                    валидиция форм, карта, работа с сервером</p>
+                                <img class="portfolio-card__img" src="./img/keksobooking.jpg" alt="keksobooking"
+                                    width="320" height="160">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <a href="https://csb-mpqy0e.netlify.app" class="portfolio__link" target="_blank">
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-card__title">Фермерские продукты</h3>
+                                <p class="portfolio-card__about">Проект онлайн магазина. Выполнен с использованием
+                                    библиотеки
+                                    React.</p>
+                                <img class="portfolio-card__img" src="./img/farm1.jpg" alt="farm-products" width="320"
+                                    height="160">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <article class="resume" id="resume">
+                <h2 class="resume__title">Немного о себе</h2>
+                <p class="resume__about">
+                    Умею слышать клиента и помогать ему найти лучшие решения.
+                    <br>
+                    Хорошо задаю вопросы и слышу на них ответ.
+                    <br>
+                    Хорошо справляюсь с самостоятельным поиском решения задач.
+                    <br>
+                    Трудолюбив. Привык справляться с поставленными задачами в режиме дедлайнов.
+                    <br>
+                    Умею читать техническую документацию, спецификации и технические задания.
+                    <br>
+                    Уверено читаю документацию на английском языке.
+                    <br>
+                    Все свободное время посвящаю изучению JS и новых для меня инструментов во фронтенд-разработке.
+                </p>
+            </article>
+            <article class="education" id="education">
+                <h2 class="education__title">Образование</h2>
+                <p class="education__about">Я учусь постоянно, но вот что я уже сделал</p>
+                <ul class="education__list">
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://unecon.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">Санкт-Петербургский государственный экономический
+                                    университет</h3>
+                            </a>
+                            <p class="education-card__about">Высшее образование</p>
+                            <p class="education-card__more-about">Факультет экономики и управления на предприятии</p>
+                            <img class="education-card__img" src="./img/univ.jpg" alt="university" width="180"
+                                height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://htmlacademy.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">HTML Academy</h3>
+                            </a>
+                            <p class="education-card__about">Онлайн курс</p>
+                            <p class="education-card__more-about">Курс профессиональной верстки на HTML и CSS</p>
+                            <img class="education-card__img" src="./img/prof.jpg" alt="professional web dipola"
+                                width="180" height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://htmlacademy.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">HTML Academy</h3>
+                            </a>
+                            <p class="education-card__about">Онлайн курс</p>
+                            <p class="education-card__more-about">Курс адаптивной верстки на HTML и CSS</p>
+                            <img class="education-card__img" src="./img/adaptive.jpg" alt="adaptive web diploma"
+                                width="180" height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://htmlacademy.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">HTML Academy</h3>
+                            </a>
+                            <p class="education-card__about">Онлайн курс</p>
+                            <p class="education-card__more-about">Курс разработки на JavaScript</p>
+                            <img class="education-card__img" src="./img/js.jpg" alt="js diploma" width="180"
+                                height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://htmlacademy.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">HTML Academy</h3>
+                            </a>
+                            <p class="education-card__about">Онлайн курс</p>
+                            <p class="education-card__more-about">Курс вёрстки React-компонентов</p>
+                            <img class="education-card__img" src="./img/react.jpg" alt="" width="180" height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://htmlacademy.ru/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">HTML Academy</h3>
+                            </a>
+                            <p class="education-card__about">Онлайн курс</p>
+                            <p class="education-card__more-about">Курс подготовки верстки для CMS (WordPress)</p>
+                            <img class="education-card__img" src="./img/WordPress.jpg" alt="" width="180" height="270">
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://www.bikontre.com/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">БиКонТре</h3>
+                            </a>
+                            <p class="education-card__about">Очный курс</p>
+                            <p class="education-card__more-about">Курс "Основы эффективных продаж"</p>
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education-card">
+                            <a href="https://www.bikontre.com/" class="education-card__link" target="_blank">
+                                <h3 class="education-card__title">БиКонТре</h3>
+                            </a>
+                            <p class="education-card__about">Очный курс</p>
+                            <p class="education-card__more-about">Курс "Презентация продукции"</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="education__button button">Смотреть все</button>
+            </article>
+            <article class="experience" id="experience">
+                <h2 class="experience__title">Опыт работы</h2>
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <div class="experience-card">
+                            <a href="https://www.norkon.net/" class="experience-card__link experience-card__link--norkon" target="_blank">
+                                <h3 class="experience-card__title">Norkon Computing Systems (аутсорсинг)</h3>
+                            </a>
+                            <p class="experience-card__position">Фронтенд-разработчик</p>
+                            <p class="experience-card__about">Адаптация готового продукта Norkon (биржевая игра <a
+                                    href="https://www.di.se/dromportfoljen">Drömportföljen Dagens Industri</a>):
+                                переработка верстки (HTML, SCSS, JavaScript) под
+                                макет нового заказчика и интернационализция текста (i18n).</p>
+                        </div>
+                    </li>
+                    <li class="experience__item">
+                        <div class="experience-card">
+                            <a href="https://www.rusprofile.ru/id/7895078" class="experience-card__link "
+                                target="_blank">
+                                <h3 class="experience-card__title">ООО ВКМТ</h3>
+                            </a>
+                            <p class="experience-card__position">Проектный директор</p>
+                            <p class="experience-card__about">Регистрация и
+                                продвижение на рынке РФ нового иностранного иоборудования.</p>
+                            <p class="experience-card__about">Реализация годового плана продаж на
+                                вверенной территории.</p>
+                            <p class="experience-card__about">Управление проектными группами из менеджеров по продажам и
+                                инженеров.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="experience__item">
+                        <div class="experience-card">
+                            <a href="https://jnj.ru/" class="experience-card__link experience-card__link--jj" target="_blank">
+                                <h3 class="experience-card__title">Johnson & Johnson</h3>
+                            </a>
+                            <p class="experience-card__position">Старший специалист по продукту</p>
+                            <p class="experience-card__about">Реализация квартального плана продаж на вверенной
+                                территории и подготовка отчетности.</p>
+                            <p class="experience-card__about">Составление квартального и годового плана продаж личного и
+                                всей команды.</p>
+                            <p class="experience-card__about">Организация мероприятий и выставок.</p>
+                            <p class="experience-card__about">Организация и проведение обучения для пользователей наших
+                                продуктов и официальных
+                                дистрибьюторов.</p>
+                            <p class="experience-card__about">Обучение новых сотрудников.</p>
+                        </div>
+                    </li>
+                    <li class="experience__item">
+                        <div class="experience-card">
+                            <a href="https://www.bbraun.ru/ru.html" class="experience-card__link experience-card__link--bbraun" target="_blank">
+                                <h3 class="experience-card__title">B.Braun</h3>
+                            </a>
+                            <p class="experience-card__position">Региональный представитель</p>
+                            <p class="experience-card__about">Выполнение плана продаж и ведение отчетности на вверенной
+                                территори.</p>
+                            <p class="experience-card__about">Проведение презентация и обучений среди клинических
+                                специалистов.</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <article class="contacts" id="contacts">
+                <h2 class="contacts__title">Контакты</h2>
+
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a href="mailto:rudchenko.vova@mail.ru" class="contacts__link" target="_blank">
+                            <h3 class="contacts__item-title">E-mail</h3>
+                            <p class="contacts__item-text">rudchenko.vova@mail.ru</p>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="https://t.me/vova_lovalova" class="contacts__link" target="_blank">
+                            <h3 class="contacts__item-title">Telegram / WhatsApp</h3>
+                            <p class="contacts__item-text">+7 981 775 77 40</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="social__list">
+
+                    <li class="social__item">
+                        <a href="https://github.com/VovaLovalova" class="social__link" target="_blank" title="GitHub">
+                            <span class="visually-hidden">GitHub</span>
+                            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+                                data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                                <path fill-rule="evenodd"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D1%80%D1%83%D0%B4%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-b50358260/"
+                            class="social__link" target="_blank" title="LinkedIn">
+                            <span class="visually-hidden">LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="loader__linkedin-logo" width="100"
+                                height="48" viewBox="0 0 190 48">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M58,27.22V41H51V28.88c0-3.7-2.07-5.24-4-5.24a5,5,0,0,0-5.14,4.85,4.34,4.34,0,0,0,0,.51V41H35V18h6.6v3.25h.09c.69-1.41,3.64-3.75,7.66-3.75S58,20.22,58,27.22ZM24,41h7V18H24ZM27.5,6.45a4.05,4.05,0,1,0,4.1,4.05,4,4,0,0,0-4-4ZM190,3.5v41a3.5,3.5,0,0,1-3.5,3.5h-41a3.5,3.5,0,0,1-3.5-3.5V3.5A3.5,3.5,0,0,1,145.5,0h41A3.5,3.5,0,0,1,190,3.5ZM156,18h-7V41h7Zm.6-7.5a4.1,4.1,0,1,0-4.15,4.05h.05a4,4,0,0,0,4.1-3.9ZM183,27.22c0-7-4.63-9.72-8.65-9.72s-7,2.34-7.66,3.75h-.09V18H160V41h7V29c0-3.69,2.51-5.33,4.95-5.33,2,0,4.05,1.54,4.05,5.24V41h7ZM8,7H0V41H21V34H8ZM108,29.77v2H91a1.33,1.33,0,0,0,.11.43c.58,1.93,2.67,3.56,5.75,3.56A6.3,6.3,0,0,0,102,33.52l5.1,3.18a12.72,12.72,0,0,1-10.45,4.8C89.94,41.5,84,37.42,84,29.59S90,17.5,96.44,17.5,108,21.81,108,29.77ZM101,27c0-2.4-1.56-4.38-4.75-4.38-3,0-5.09,2-5.25,4.38ZM85.26,18H76.68l-7.54,9.37H69V7H62V41h7V30h.14l7.72,11h8.77L76.2,28.43ZM128,7h7V41h-6.6V38h-.09c-.88,1.52-3.24,3.49-7.4,3.49-5,0-10.91-3.63-10.91-12,0-7.53,5.1-11.95,10.82-11.95a9.55,9.55,0,0,1,7.09,3H128Zm.3,22.49a5.74,5.74,0,0,0-5.59-5.89h-.15A5.54,5.54,0,0,0,116.89,29c0,.15,0,.29,0,.44a5.61,5.61,0,0,0,5.26,5.94h.4A5.83,5.83,0,0,0,128.3,29.49Z"
+                                            fill="currentColor"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="https://career.habr.com/vova_lovalova" class="social__link" target="_blank"
+                            title="Хабр Карьера">
+                            <span class="visually-hidden">Habr</span>
+                            <svg width="80" height="30" viewBox="0 0 800 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="800" height="300" fill="#f5f5f5" />
+                                <path
+                                    d="M297.027 201.519L254.743 137.546L296.662 73.209H265.861L237.793 116.951L210.09 73.209H178.195L220.114 136.999L177.83 201.519H208.996L237.064 157.594L265.314 201.519H297.027Z"
+                                    fill="black" />
+                                <path
+                                    d="M350.873 105.104C326.268 105.104 312.234 118.592 309.682 134.813H334.469C335.927 129.892 340.666 125.7 349.779 125.7C358.71 125.7 365.271 130.256 365.271 139.004V143.379H344.676C320.618 143.379 306.037 154.496 306.037 173.816C306.037 192.771 320.618 203.706 338.844 203.706C351.055 203.706 360.897 198.967 366.729 191.313V201.519H391.334V139.916C391.334 116.951 375.113 105.104 350.873 105.104ZM346.134 183.111C337.932 183.111 332.647 179.101 332.647 172.54C332.647 165.796 338.479 161.787 346.681 161.787H365.271V165.979C365.271 176.914 356.34 183.111 346.134 183.111Z"
+                                    fill="black" />
+                                <path
+                                    d="M465.062 108.93C451.94 108.93 441.186 113.668 434.26 123.328C436.083 105.649 443.191 96.9005 461.052 94.1666L496.957 88.8811V65.7344L458.501 72.1134C421.32 78.3102 409.838 103.097 409.838 144.47C409.838 181.651 427.881 203.704 459.777 203.704C488.391 203.704 506.07 181.833 506.07 155.588C506.07 127.338 489.667 108.93 465.062 108.93ZM458.501 181.468C444.649 181.468 436.994 170.351 436.994 155.405C436.994 141.007 445.014 130.618 458.683 130.618C471.988 130.618 479.46 141.371 479.46 155.588C479.46 169.804 472.17 181.468 458.501 181.468Z"
+                                    fill="black" />
+                                <path
+                                    d="M577.043 105.104C563.191 105.104 554.261 111.119 549.522 118.227V107.292H524.006V236.33H550.616V192.406C555.354 198.967 564.285 203.706 576.314 203.706C599.461 203.706 617.869 185.48 617.869 154.496C617.869 122.966 599.461 105.104 577.043 105.104ZM570.664 180.742C558.27 180.742 550.069 170.717 550.069 154.861V154.132C550.069 138.275 558.27 128.069 570.664 128.069C583.057 128.069 591.077 138.458 591.077 154.496C591.077 170.535 583.057 180.742 570.664 180.742Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="" class="social__link" target="_blank" title="HeadHunter">
+                            <span class="visually-hidden">HeadHunter</span>
+                            <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24"
+                                    fill="#000000" />
+                                <path
+                                    d="M13.65 13.169v8.164c1.243-1.482 2.733-2.228 4.461-2.228.89 0 1.687.17 2.402.507.717.335 1.253.765 1.615 1.287.364.527.61 1.104.743 1.74.132.633.198 1.618.198 2.954v8.729h-3.862V26.46c0-1.56-.07-2.548-.217-2.968a1.917 1.917 0 00-.775-1c-.372-.251-.835-.375-1.394-.375-.64 0-1.214.16-1.713.478-.51.32-.876.798-1.108 1.437-.236.64-.354 1.585-.35 2.836l-.004 7.454H9.789V13.169h3.862m15.206 0v8.164c1.244-1.482 2.733-2.228 4.46-2.228.887 0 1.69.17 2.406.507.714.335 1.25.765 1.61 1.287a4.69 4.69 0 01.743 1.74c.133.633.199 1.618.199 2.954v8.729h-3.858V26.46c0-1.56-.073-2.548-.22-2.968a1.91 1.91 0 00-.777-1c-.368-.251-.835-.375-1.394-.375-.639 0-1.213.16-1.713.478-.503.32-.871.798-1.106 1.437-.232.64-.35 1.585-.35 2.836v7.454H25V13.169h3.857"
+                                    fill="#FEFEFE" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="https://instagram.com/vova_lovalova?igshid=MWI4MTIyMDE=" class="social__link"
+                            target="_blank" title="Instagram">
+                            <span class="visually-hidden">Instagram</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60">
+                                <path
+                                    d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </article>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="#header" class="footer__link">
+            <h1 class="footer__logo">VLADIMIR<br>RUDCHENKO</h1>
+        </a>
+        <div class="footer__copyright copyright">
+            <span class="copyright__date">2023</span>
+            <span class="copyright__text">Developed by VLADIMIR RUDCHENKO</span>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./src/script/education-list.js"></script>
+    <script src="./src/script/header-button.js"></script>
+</body>
+
+</html>

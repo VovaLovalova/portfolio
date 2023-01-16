@@ -1,0 +1,39 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 100px;
+    margin-bottom: 200px;
+    z-index: 1;
+}
+
+.nav-bar__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.nav-bar__logo {
+    color: #000000;
+    width: 360px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.nav-bar__item {
+    margin-right: 12px;
+    border-bottom: 4px solid transparent;
+}
+
+.nav-bar__item:hover {
+    margin-right: 12px;
+    border-bottom: 4px solid #000000;
+}
+
+.naw-bar__link {
+    color: #000000;
+    font-size: 28px;
+}
