@@ -15,7 +15,11 @@
     <header class="main-header" id="header">
         <nav class="main-header__nav-bar nav-bar">
             <h1 class="nav-bar__logo">VLADIMIR<br>RUDCHENKO</h1>
-            <ul class="nav-bar__list">
+            <h1 class="nav-bar__logo--mobile">VR</h1>
+            <button class="nav-bar__button nav-bar__button--open"><span
+                    class="visually-hidden">Навигация</span>
+            </button>
+            <ul class="nav-bar__list nav-bar__list--closed">
                 <li class="nav-bar__item">
                     <a href="#portfolio" class="naw-bar__link">Портфолио</a>
                 </li>
@@ -128,37 +132,37 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="portfolio__item">
-                            <a href="https://beamish-cucurucho-4812a7.netlify.app/" class="portfolio__link"
-                                target="_blank">
-                                <div class="portfolio-card">
-                                    <h3 class="portfolio-card__title">Cat Energy</h3>
-                                    <p class="portfolio-card__about">Проект онлайн магазина. Проект выполнен по
-                                        методологии
-                                        БЭМ и
-                                        применением препроцессора Less. Верстка адаптивная под мобильный телефон,
-                                        десктоп и
-                                        планшет. Графика оптимизирована под все типы мониторов.</p>
-                                    <img class="portfolio-card__img" src="./img/cat-energy.jpg" alt="cat-energy"
-                                        width="560" height="280">
-                                </div>
-                            </a>
-                        </div>
+                                <a href="https://beamish-cucurucho-4812a7.netlify.app/" class="portfolio__link"
+                                    target="_blank">
+                                    <div class="portfolio-card">
+                                        <h3 class="portfolio-card__title">Cat Energy</h3>
+                                        <p class="portfolio-card__about">Проект онлайн магазина. Проект выполнен по
+                                            методологии
+                                            БЭМ и
+                                            применением препроцессора Less. Верстка адаптивная под мобильный телефон,
+                                            десктоп и
+                                            планшет. Графика оптимизирована под все типы мониторов.</p>
+                                        <img class="portfolio-card__img" src="./img/cat-energy.jpg" alt="cat-energy"
+                                            width="560" height="280">
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="portfolio__item">
-                            <a href="https://majestic-moonbeam-369693.netlify.app" class="portfolio__link"
-                                target="_blank">
-                                <div class="portfolio-card">
-                                    <h3 class="portfolio-card__title">Keksobooking</h3>
-                                    <p class="portfolio-card__about">Проект сайта для поиска жилья и размещения
-                                        объявлений,
-                                        настроена
-                                        валидиция форм, карта, работа с сервером</p>
-                                    <img class="portfolio-card__img" src="./img/keksobooking.jpg" alt="keksobooking"
-                                    width="560" height="280">
-                                </div>
-                            </a>
-                        </div>
+                                <a href="https://majestic-moonbeam-369693.netlify.app" class="portfolio__link"
+                                    target="_blank">
+                                    <div class="portfolio-card">
+                                        <h3 class="portfolio-card__title">Keksobooking</h3>
+                                        <p class="portfolio-card__about">Проект сайта для поиска жилья и размещения
+                                            объявлений,
+                                            настроена
+                                            валидиция форм, карта, работа с сервером</p>
+                                        <img class="portfolio-card__img" src="./img/keksobooking.jpg" alt="keksobooking"
+                                            width="560" height="280">
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="portfolio__item">
@@ -170,7 +174,7 @@
                                             библиотеки
                                             React.</p>
                                         <img class="portfolio-card__img" src="./img/farm1.jpg" alt="farm-products"
-                                        width="560" height="280">
+                                            width="560" height="280">
                                     </div>
                                 </a>
                             </div>
@@ -528,6 +532,7 @@
     <script src="./src/script/education-list.js"></script>
     <script src="./src/script/header-button.js"></script>
     <script src="./src/script/swiper.js"></script>
+    <script src="./src/script/toggle-button.js"></script>
 </body>
 
 </html>
