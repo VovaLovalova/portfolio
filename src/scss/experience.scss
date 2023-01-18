@@ -8,14 +8,27 @@
     max-width: 1600px;
     margin: 0 auto;
     padding: 100px 50px;
+
+    @media(max-width: 886px) {
+        padding: 40px 20px;
+    }
 }
 
 .experience__title {
     font-size: 42px;
     color: #000;
     margin-bottom: 32px;
+
+    @media(max-width: 886px) {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
 }
 
 .experience__item {
     margin-bottom: 32px;
+
+    @media(max-width: 886px) {
+        margin-bottom: 18px;
+    }
 }

@@ -1,5 +1,11 @@
 .experience-card {
     margin-left: 250px;
+
+    @media(max-width: 886px) {
+        margin-left: 0;
+        width: 350px;
+        margin-bottom: 48px;
+    }
 }
 
 .experience-card__link {
@@ -17,6 +23,12 @@
     background-repeat: no-repeat;
     top: 0;
     left: -200px;
+
+    @media(max-width: 886px) {
+        width: 100px;
+        height: 30px;
+        left: 0;
+    }
 }
 
 .experience-card__link--jj::before {
@@ -29,6 +41,12 @@
     background-repeat: no-repeat;
     top: 0;
     left: -200px;
+
+    @media(max-width: 886px) {
+        width: 100px;
+        height: 30px;
+        left: 0;
+    }
 }
 
 .experience-card__link--bbraun::before {
@@ -41,6 +59,12 @@
     background-repeat: no-repeat;
     top: 0;
     left: -200px;
+
+    @media(max-width: 886px) {
+        width: 100px;
+        height: 30px;
+        left: 0;
+    }
 }
 
 .experience-card__link--vkmt::before {
@@ -53,23 +77,43 @@
     background-repeat: no-repeat;
     top: 0;
     left: -200px;
+
+    @media(max-width: 886px) {
+        width: 100px;
+        height: 30px;
+        left: 0;
+    }
 }
 
 .experience-card__title {
     font-size: 32px;
     margin-bottom: 12px;
     color: #000;
+
+    @media(max-width: 886px) {
+        font-size: 20px;
+        margin-left: 128px;
+        margin-bottom: 14px;
+    }
 }
 
 .experience-card__position {
     font-size: 28px;
     margin-bottom: 12px;
     color: #000;
+
+    @media(max-width: 886px) {
+        font-size: 18px;
+    }
 }
 
 .experience-card__about {
     font-size: 20px;
     color: #000;
+
+    @media(max-width: 886px) {
+        font-size: 14px;
+    }
 }
 
 .experience-card__about:not(:last-child) {

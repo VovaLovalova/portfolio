@@ -422,6 +422,7 @@ ul, ol {
 @media (max-width: 886px) {
   .portfolio__about {
     font-size: 18px;
+    text-align: center;
   }
 }
 
@@ -594,15 +595,31 @@ ul, ol {
   margin: 0 auto;
   padding: 100px 50px;
 }
+@media (max-width: 886px) {
+  .experience {
+    padding: 40px 20px;
+  }
+}
 
 .experience__title {
   font-size: 42px;
   color: #000;
   margin-bottom: 32px;
 }
+@media (max-width: 886px) {
+  .experience__title {
+    font-size: 36px;
+    margin-bottom: 18px;
+  }
+}
 
 .experience__item {
   margin-bottom: 32px;
+}
+@media (max-width: 886px) {
+  .experience__item {
+    margin-bottom: 18px;
+  }
 }
 
 .contacts {
@@ -892,6 +909,13 @@ ul, ol {
 .experience-card {
   margin-left: 250px;
 }
+@media (max-width: 886px) {
+  .experience-card {
+    margin-left: 0;
+    width: 350px;
+    margin-bottom: 48px;
+  }
+}
 
 .experience-card__link {
   color: #000;
@@ -909,6 +933,13 @@ ul, ol {
   top: 0;
   left: -200px;
 }
+@media (max-width: 886px) {
+  .experience-card__link--norkon::before {
+    width: 100px;
+    height: 30px;
+    left: 0;
+  }
+}
 
 .experience-card__link--jj::before {
   position: absolute;
@@ -920,6 +951,13 @@ ul, ol {
   background-repeat: no-repeat;
   top: 0;
   left: -200px;
+}
+@media (max-width: 886px) {
+  .experience-card__link--jj::before {
+    width: 100px;
+    height: 30px;
+    left: 0;
+  }
 }
 
 .experience-card__link--bbraun::before {
@@ -933,6 +971,13 @@ ul, ol {
   top: 0;
   left: -200px;
 }
+@media (max-width: 886px) {
+  .experience-card__link--bbraun::before {
+    width: 100px;
+    height: 30px;
+    left: 0;
+  }
+}
 
 .experience-card__link--vkmt::before {
   position: absolute;
@@ -945,11 +990,25 @@ ul, ol {
   top: 0;
   left: -200px;
 }
+@media (max-width: 886px) {
+  .experience-card__link--vkmt::before {
+    width: 100px;
+    height: 30px;
+    left: 0;
+  }
+}
 
 .experience-card__title {
   font-size: 32px;
   margin-bottom: 12px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .experience-card__title {
+    font-size: 20px;
+    margin-left: 128px;
+    margin-bottom: 14px;
+  }
 }
 
 .experience-card__position {
@@ -957,10 +1016,20 @@ ul, ol {
   margin-bottom: 12px;
   color: #000;
 }
+@media (max-width: 886px) {
+  .experience-card__position {
+    font-size: 18px;
+  }
+}
 
 .experience-card__about {
   font-size: 20px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .experience-card__about {
+    font-size: 14px;
+  }
 }
 
 .experience-card__about:not(:last-child) {
