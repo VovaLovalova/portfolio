@@ -8,11 +8,15 @@
     display: grid;
     grid-template-columns: 460px 200px;
     column-gap: 20px;
+    align-items: center;
 
     @media(max-width: 886px) {
-        grid-template-columns: 230px 100px;
-        column-gap: 8px;
-        width: 470px;
+        grid-template-columns: 215px 90px;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 20px;
+        column-gap: 5px;
+        width: 350px;
+        height: 204px;
     }
 }
 
@@ -20,6 +24,10 @@
     position: relative;
     margin-bottom: 12px;
     color: #000;
+
+    @media(max-width: 886px) {
+        margin-bottom: 0;
+    }
 }
 
 .education-card__title {
@@ -41,6 +49,7 @@
     grid-column: 1 / 2;
 
     @media(max-width: 886px) {
+        margin-bottom: 0;
         font-size: 14px;
     }
 }
@@ -53,6 +62,7 @@
 
     @media(max-width: 886px) {
         font-size: 14px;
+        margin-bottom: 0;
     }
 }
 
@@ -65,13 +75,33 @@
     background-image: url(./univ.jpg);
     grid-column: 2 / 3;
     grid-row: 1 / 6;
+
+    @media(max-width: 886px) {
+        width: 90px;
+        height: 140px;
+    }
 }
 
 .education-card__img--univ {
     background-image: url(./univ.jpg);
+}
 
-    @media(max-width: 886px) {
-        width: 90px;
-        height: 180px;
-    }
+.education-card__img--prof {
+    background-image: url(./prof.jpg);
+}
+
+.education-card__img--adaptive {
+    background-image: url(./adaptive.jpg);
+}
+
+.education-card__img--js {
+    background-image: url(./js.jpg);
+}
+
+.education-card__img--react {
+    background-image: url(./react.jpg);
+}
+
+.education-card__img--wordpress {
+    background-image: url(./WordPress.jpg);
 }

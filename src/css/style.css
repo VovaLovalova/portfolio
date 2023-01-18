@@ -566,8 +566,8 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .education__list {
-    -ms-grid-columns: 450px;
-    grid-template-columns: 450px;
+    -ms-grid-columns: 350px;
+    grid-template-columns: 350px;
   }
 }
 
@@ -745,15 +745,46 @@ ul, ol {
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media (max-width: 886px) {
   .education-card {
-    -ms-grid-columns: 230px 8px 100px;
-    grid-template-columns: 230px 100px;
-    -webkit-column-gap: 8px;
-       -moz-column-gap: 8px;
-            column-gap: 8px;
-    width: 470px;
+    -ms-grid-columns: 215px 5px 90px;
+    grid-template-columns: 215px 90px;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    -webkit-column-gap: 5px;
+       -moz-column-gap: 5px;
+            column-gap: 5px;
+    width: 350px;
+    height: 204px;
+  }
+  .education-card > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .education-card > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  .education-card > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .education-card > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }
+  .education-card > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .education-card > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
   }
 }
 
@@ -761,6 +792,11 @@ ul, ol {
   position: relative;
   margin-bottom: 12px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .education-card__link {
+    margin-bottom: 0;
+  }
 }
 
 .education-card__title {
@@ -788,6 +824,7 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .education-card__about {
+    margin-bottom: 0;
     font-size: 14px;
   }
 }
@@ -803,6 +840,7 @@ ul, ol {
 @media (max-width: 886px) {
   .education-card__more-about {
     font-size: 14px;
+    margin-bottom: 0;
   }
 }
 
@@ -820,15 +858,35 @@ ul, ol {
   -ms-grid-row-span: 5;
   grid-row: 1/6;
 }
+@media (max-width: 886px) {
+  .education-card__img {
+    width: 90px;
+    height: 140px;
+  }
+}
 
 .education-card__img--univ {
   background-image: url(./univ.jpg);
 }
-@media (max-width: 886px) {
-  .education-card__img--univ {
-    width: 90px;
-    height: 180px;
-  }
+
+.education-card__img--prof {
+  background-image: url(./prof.jpg);
+}
+
+.education-card__img--adaptive {
+  background-image: url(./adaptive.jpg);
+}
+
+.education-card__img--js {
+  background-image: url(./js.jpg);
+}
+
+.education-card__img--react {
+  background-image: url(./react.jpg);
+}
+
+.education-card__img--wordpress {
+  background-image: url(./WordPress.jpg);
 }
 
 .experience-card {
