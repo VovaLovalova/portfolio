@@ -441,6 +441,7 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume__title {
+    font-size: 36px;
     margin-bottom: 24px;
   }
 }
@@ -471,6 +472,11 @@ ul, ol {
 .resume__item {
   font-size: 24px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .resume__item {
+    font-size: 18px;
+  }
 }
 
 .resume__item--about {
