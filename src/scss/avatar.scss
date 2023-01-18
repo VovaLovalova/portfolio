@@ -1,6 +1,10 @@
 .avatar {
     position: relative;
     margin-bottom: 100px;
+
+    @media(max-width: 886px) {
+        margin-bottom: 60px;
+    }
 }
 
 .avatar__img {
@@ -22,6 +26,10 @@
         height: 210px;
         margin-bottom: 15px;
     }
+}
+
+.avatar__img--hide {
+    z-index: 0;
 }
 
 .avatar__title {

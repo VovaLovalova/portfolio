@@ -117,6 +117,11 @@ ul, ol {
   position: relative;
   margin-bottom: 100px;
 }
+@media (max-width: 886px) {
+  .avatar {
+    margin-bottom: 60px;
+  }
+}
 
 .avatar__img {
   position: relative;
@@ -138,6 +143,10 @@ ul, ol {
     height: 210px;
     margin-bottom: 15px;
   }
+}
+
+.avatar__img--hide {
+  z-index: 0;
 }
 
 .avatar__title {
@@ -341,7 +350,7 @@ ul, ol {
     text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 8px 0 8px;
+    padding: 21px 0 21px;
   }
   .nav-bar__item:first-child {
     border-top: 1px solid #000000;
