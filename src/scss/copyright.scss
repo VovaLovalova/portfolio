@@ -2,5 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+
+    @media(max-width: 886px) {
+        align-items: flex-end;
+    }
+}
+
+.copyright__date, .copyright__text {
+    @media(max-width: 886px) {
+        font-size: 14px;
+        text-align: end;
+    }
 }

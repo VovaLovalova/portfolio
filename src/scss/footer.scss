@@ -12,3 +12,10 @@
     color: #000;
     text-align: left;
 }
+
+.footer__logo {
+
+    @media(max-width: 886px) {
+        font-size: 18px;
+    }
+}
