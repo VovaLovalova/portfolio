@@ -1025,12 +1025,12 @@ ul, ol {
 @media (max-width: 1200px) {
   .swiper {
     width: 600px;
-    height: 400px;
   }
 }
 @media (max-width: 886px) {
   .swiper {
     width: 350px;
+    height: 570px;
   }
 }
 
@@ -1069,4 +1069,11 @@ ul, ol {
 
 .swiper-button-next:after, .swiper-button-prev:after {
   color: #000000;
+}
+
+@media (max-width: 1200px) {
+  .swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
+  }
 }

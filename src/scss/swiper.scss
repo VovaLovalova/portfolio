@@ -4,11 +4,11 @@
 
     @media(max-width: 1200px) {
         width: 600px;
-        height: 400px;
     }
 
     @media(max-width: 886px) {
         width: 350px;
+        height: 570px;
     }
 }
 
@@ -40,4 +40,11 @@
 
 .swiper-button-next:after, .swiper-button-prev:after {
     color: #000000;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    @media(max-width: 1200px) {
+        display: none !important;
+    }
 }
