@@ -396,17 +396,33 @@ ul, ol {
   min-height: 100vh;
   padding: 100px 50px;
 }
+@media (max-width: 886px) {
+  .portfolio {
+    padding: 40px 20px;
+  }
+}
 
 .portfolio__title {
   font-size: 42px;
   margin-bottom: 32px;
   color: #000;
 }
+@media (max-width: 886px) {
+  .portfolio__title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+}
 
 .portfolio__about {
   font-size: 24px;
   margin-bottom: 50px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .portfolio__about {
+    font-size: 18px;
+  }
 }
 
 .portfolio__link {
@@ -464,8 +480,8 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume__list {
-    -ms-grid-columns: 350px;
-    grid-template-columns: 350px;
+    -ms-grid-columns: 450px;
+    grid-template-columns: 450px;
   }
 }
 
@@ -634,6 +650,48 @@ ul, ol {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 10px;
+}
+@media (max-width: 1200px) {
+  .portfolio-card {
+    width: 500px;
+  }
+}
+@media (max-width: 886px) {
+  .portfolio-card {
+    width: 350px;
+  }
+}
+
+.portfolio-card__img {
+  width: 560px;
+  height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1200px) {
+  .portfolio-card__img {
+    width: 458px;
+    height: 250px;
+  }
+}
+@media (max-width: 886px) {
+  .portfolio-card__img {
+    width: 310px;
+    height: 200px;
+  }
+}
+
+.portfolio-card__img--cat {
+  background-image: url(./cat-energy.jpg);
+}
+
+.portfolio-card__img--book {
+  background-image: url(./keksobooking.jpg);
+}
+
+.portfolio-card__img--farm {
+  background-image: url(./farm1.jpg);
 }
 
 .portfolio-card:hover {
@@ -963,6 +1021,16 @@ ul, ol {
 .swiper {
   width: 1200px;
   height: 600px;
+}
+@media (max-width: 1200px) {
+  .swiper {
+    width: 600px;
+  }
+}
+@media (max-width: 886px) {
+  .swiper {
+    width: 350px;
+  }
 }
 
 .swiper-slide {

@@ -8,6 +8,44 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
+
+    @media(max-width: 1200px) {
+        width: 500px;
+    }
+
+    @media(max-width: 886px) {
+        width: 350px;
+    }
+}
+
+.portfolio-card__img {
+    width: 560px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media(max-width: 1200px) {
+        width: 458px;
+        height: 250px;
+    }
+
+    @media(max-width: 886px) {
+        width: 310px;
+        height: 200px;
+    }
+}
+
+.portfolio-card__img--cat {
+    background-image: url(./cat-energy.jpg);
+}
+
+.portfolio-card__img--book {
+    background-image: url(./keksobooking.jpg);
+}
+
+.portfolio-card__img--farm {
+    background-image: url(./farm1.jpg);
 }
 
 .portfolio-card:hover {
