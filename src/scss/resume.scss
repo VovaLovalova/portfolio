@@ -13,11 +13,19 @@
     color: #000;
 }
 
-.resume__list--stack {
+.resume__list {
     display: grid;
     grid-template-columns: 650px 650px;
     column-gap: 50px;
     margin-bottom: 50px;
+
+    @media(max-width: 1200px) {
+        grid-template-columns: 800px;
+    }
+
+    @media(max-width: 886px) {
+        grid-template-columns: 650px;
+    }
 }
 
 .resume__item {

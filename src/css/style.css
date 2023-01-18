@@ -435,7 +435,7 @@ ul, ol {
   color: #000;
 }
 
-.resume__list--stack {
+.resume__list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 650px 50px 650px;
@@ -444,6 +444,18 @@ ul, ol {
      -moz-column-gap: 50px;
           column-gap: 50px;
   margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+  .resume__list {
+    -ms-grid-columns: 800px;
+    grid-template-columns: 800px;
+  }
+}
+@media (max-width: 886px) {
+  .resume__list {
+    -ms-grid-columns: 650px;
+    grid-template-columns: 650px;
+  }
 }
 
 .resume__item {
@@ -844,6 +856,16 @@ ul, ol {
   width: 650px;
   margin-bottom: 10px;
 }
+@media (max-width: 1200px) {
+  .resume-card {
+    width: 800px;
+  }
+}
+@media (max-width: 886px) {
+  .resume-card {
+    width: 650px;
+  }
+}
 
 .resume-card__img {
   width: 150px;
@@ -856,6 +878,16 @@ ul, ol {
 
 .resume-card__text {
   width: 460px;
+}
+@media (max-width: 1200px) {
+  .resume-card__text {
+    width: 590px;
+  }
+}
+@media (max-width: 886px) {
+  .resume-card__text {
+    width: 460px;
+  }
 }
 
 .resume-card__img--languages {
