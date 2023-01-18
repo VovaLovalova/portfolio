@@ -428,11 +428,21 @@ ul, ol {
   min-height: 100vh;
   padding: 100px 50px;
 }
+@media (max-width: 886px) {
+  .resume {
+    padding: 40px 20px;
+  }
+}
 
 .resume__title {
   font-size: 42px;
   margin-bottom: 48px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .resume__title {
+    margin-bottom: 24px;
+  }
 }
 
 .resume__list {

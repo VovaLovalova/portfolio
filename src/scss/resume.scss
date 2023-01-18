@@ -5,12 +5,20 @@
     background-color: #ffffff;
     min-height: 100vh;
     padding: 100px 50px;
+
+    @media(max-width: 886px) {
+        padding: 40px 20px;
+    }
 }
 
 .resume__title {
     font-size: 42px;
     margin-bottom: 48px;
     color: #000;
+
+    @media(max-width: 886px) {
+        margin-bottom: 24px;
+    }
 }
 
 .resume__list {
