@@ -2,13 +2,26 @@
     position: relative;
     margin-bottom: 100px;
 }
+
 .avatar__img {
     position: relative;
     border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    background-image: url(./avatar.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border: 2px solid #ffffff;
     margin: 0 auto 40px;
     display: block;
     z-index: 1;
+
+    @media(max-width: 886px) {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
 }
 
 .avatar__title {
@@ -19,6 +32,10 @@
     text-align: center;
     font-size: 32px;
     margin-bottom: 30px;
+
+    @media(max-width: 886px) {
+        margin-bottom: 15px;
+    }
 }
 
 .avatar__about {
@@ -28,4 +45,8 @@
     width: 600px;
     text-align: center;
     font-size: 24px;
+
+    @media(max-width: 886px) {
+        width: 300px;
+    }
 }
