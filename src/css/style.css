@@ -1078,6 +1078,11 @@ ul, ol {
   margin-bottom: 40px;
   max-width: 1600px;
 }
+@media (max-width: 886px) {
+  .social__list {
+    margin-bottom: 20px;
+  }
+}
 
 .social__link {
   color: #000;
