@@ -453,8 +453,8 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume__list {
-    -ms-grid-columns: 650px;
-    grid-template-columns: 650px;
+    -ms-grid-columns: 350px;
+    grid-template-columns: 350px;
   }
 }
 
@@ -863,7 +863,7 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume-card {
-    width: 650px;
+    width: 350px;
   }
 }
 
@@ -874,6 +874,16 @@ ul, ol {
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 40px;
+}
+@media (max-width: 886px) {
+  .resume-card__img {
+    width: 80px;
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
 }
 
 .resume-card__text {
@@ -886,7 +896,7 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume-card__text {
-    width: 460px;
+    width: 250px;
   }
 }
 
