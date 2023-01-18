@@ -8,6 +8,12 @@
     display: grid;
     grid-template-columns: 460px 200px;
     column-gap: 20px;
+
+    @media(max-width: 886px) {
+        grid-template-columns: 230px 100px;
+        column-gap: 8px;
+        width: 470px;
+    }
 }
 
 .education-card__link {
@@ -21,6 +27,11 @@
     margin-bottom: 12px;
     color: #000;
     grid-column: 1 / 2;
+
+    @media(max-width: 886px) {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
 }
 
 .education-card__about {
@@ -28,6 +39,10 @@
     margin-bottom: 12px;
     color: #000;
     grid-column: 1 / 2;
+
+    @media(max-width: 886px) {
+        font-size: 14px;
+    }
 }
 
 .education-card__more-about {
@@ -35,9 +50,28 @@
     margin-bottom: 12px;
     color: #000;
     grid-column: 1 / 2;
+
+    @media(max-width: 886px) {
+        font-size: 14px;
+    }
 }
 
 .education-card__img {
+    width: 180px;
+    height: 270px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./univ.jpg);
     grid-column: 2 / 3;
     grid-row: 1 / 6;
+}
+
+.education-card__img--univ {
+    background-image: url(./univ.jpg);
+
+    @media(max-width: 886px) {
+        width: 90px;
+        height: 180px;
+    }
 }

@@ -480,8 +480,8 @@ ul, ol {
 }
 @media (max-width: 886px) {
   .resume__list {
-    -ms-grid-columns: 450px;
-    grid-template-columns: 450px;
+    -ms-grid-columns: 306px;
+    grid-template-columns: 306px;
   }
 }
 
@@ -529,11 +529,22 @@ ul, ol {
   min-height: 100vh;
   padding: 100px 50px;
 }
+@media (max-width: 886px) {
+  .education {
+    padding: 40px 20px;
+  }
+}
 
 .education__title {
   font-size: 42px;
   margin-bottom: 32px;
   color: #000;
+}
+@media (max-width: 886px) {
+  .education__title {
+    font-size: 36px;
+    margin-bottom: 18px;
+  }
 }
 
 .education__list {
@@ -546,6 +557,18 @@ ul, ol {
           column-gap: 20px;
   row-gap: 20px;
   margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .education__list {
+    -ms-grid-columns: 800px;
+    grid-template-columns: 800px;
+  }
+}
+@media (max-width: 886px) {
+  .education__list {
+    -ms-grid-columns: 450px;
+    grid-template-columns: 450px;
+  }
 }
 
 .education__list li:nth-child(n+5) {
@@ -723,6 +746,16 @@ ul, ol {
      -moz-column-gap: 20px;
           column-gap: 20px;
 }
+@media (max-width: 886px) {
+  .education-card {
+    -ms-grid-columns: 230px 8px 100px;
+    grid-template-columns: 230px 100px;
+    -webkit-column-gap: 8px;
+       -moz-column-gap: 8px;
+            column-gap: 8px;
+    width: 470px;
+  }
+}
 
 .education-card__link {
   position: relative;
@@ -738,6 +771,12 @@ ul, ol {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
+@media (max-width: 886px) {
+  .education-card__title {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
 
 .education-card__about {
   font-size: 20px;
@@ -746,6 +785,11 @@ ul, ol {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
+}
+@media (max-width: 886px) {
+  .education-card__about {
+    font-size: 14px;
+  }
 }
 
 .education-card__more-about {
@@ -756,14 +800,35 @@ ul, ol {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
+@media (max-width: 886px) {
+  .education-card__more-about {
+    font-size: 14px;
+  }
+}
 
 .education-card__img {
+  width: 180px;
+  height: 270px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./univ.jpg);
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 5;
   grid-row: 1/6;
+}
+
+.education-card__img--univ {
+  background-image: url(./univ.jpg);
+}
+@media (max-width: 886px) {
+  .education-card__img--univ {
+    width: 90px;
+    height: 180px;
+  }
 }
 
 .experience-card {
