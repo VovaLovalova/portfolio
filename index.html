@@ -331,7 +331,7 @@
                                 class="experience-card__link experience-card__link--norkon" target="_blank">
                                 <h3 class="experience-card__title">Norkon Computing Systems</h3>
                             </a>
-                            <p class="experience-card__position">Фронтенд-разработчик  (аутсорсинг)</p>
+                            <p class="experience-card__position">Фронтенд-разработчик (аутсорсинг)</p>
                             <p class="experience-card__about">Адаптация готового продукта Norkon (биржевая игра <a
                                     href="https://www.di.se/dromportfoljen">Drömportföljen Dagens Industri</a>):
                                 переработка верстки (HTML, SCSS, JavaScript) под
@@ -387,6 +387,24 @@
                     </li>
                 </ul>
             </article>
+
+            <article class="contact-form">
+                <h2 class="contact-form__title visually-hidden">Форма обратной связи</h2>
+                <p class="contact-form__description">У вас есть вопросы?<br>Я с удовольствием на них отвечу</p>
+                <form class="contact-form__form form" name="contact form" action="https://formspree.io/f/xknaogdp" method="POST">
+                    <label class="form__input-label" for="name">Ваше имя</label>
+                        <input class="form__input" id="name" type="text" name="clients name" required>
+                    
+                    <label class="form__input-label" for="email">Ваша почта</label>
+                        <input class="form__input" id="email" type="email" name="clients email" required>
+
+                    <label class="form__input-label" for="comment">Ваш комментарий</label>
+                        <textarea class="form__textarea" id="comment" rows="4" name="clients comment" maxlength="150"></textarea>
+            
+                    <button class="form__button button">Отправить</button>
+                </form>
+            </article>
+
             <article class="contacts" id="contacts">
                 <h2 class="contacts__title">Контакты</h2>
 
